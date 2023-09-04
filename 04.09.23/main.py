@@ -11,8 +11,8 @@ from joblib import Parallel, delayed
 # print('full info:', json.dumps(m.analyze(text),
 #       ensure_ascii = False))
 
-
 batch_size = 1000
+
 
 mytext = ['Мама мыла раму {}'.format(i) for i in range(10000)]
 text_batch = [mytext[i: i + batch_size] for i in range(0, len(mytext), batch_size)]
