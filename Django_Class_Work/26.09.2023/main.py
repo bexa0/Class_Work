@@ -11,11 +11,13 @@ import random
 #     print(a)
 # task2()
 
-# def task3():
-#     text = 'Hi, my name is Ben'
-#     x = ' '.join(text)
-#     print(x)
-# task3()
+def task3():
+    text = 'Hi, my name is Ben'
+    x = ' '.join(text)
+    y = ['{}!'.format(i) for i in text]
+    print(x)
+    print(y)
+task3()
 
 
 
